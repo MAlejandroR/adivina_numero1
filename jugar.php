@@ -46,6 +46,7 @@ switch ($opcion){
         break;
     case "Volver":
         header ("location:index.php");
+        exit();
         break;
     case "Reinciar":
         break;
